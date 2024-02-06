@@ -1,6 +1,6 @@
-do {
-  const nota = parseInt(prompt(`Ingrese un número del 0 al 10`));
+const nota = parseInt(prompt(`Ingrese un número del 0 al 10`));
 
+do {
   switch (true) {
     case nota >= 0 && nota <= 2:
       console.log(`Selecciono la nota entre 0 y 2`);
